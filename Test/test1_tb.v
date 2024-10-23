@@ -10,9 +10,11 @@ module HA_testbench;
         $dumpfile("test1.vcd");
         $dumpvars(0, HA_testbench);
         
+        a = 1; b = 1; #1;
         a = 0; b = 0; #1;
         a = 0; b = 1; #1;
         a = 1; b = 0; #1;
-        a = 1; b = 1; #1;
     end
 endmodule
+
+//making changes to see if the thing changes
